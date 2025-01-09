@@ -5,6 +5,7 @@
                          reb REAL,
                          weight INTEGER
                        );
+                       
  CREATE TYPE scoring_class AS
      ENUM ('bad', 'average', 'good', 'star');
 
